@@ -1,0 +1,16 @@
+# Ignore all files
+*
+
+# Use NadekoBot project
+!src/NadekoBot/**
+# Use NadekoBot.Coordinator project
+!src/NadekoBot.Coordinator/**
+# Use Generators project
+!src/NadekoBot.Generators/**
+# Use Ayu stuff
+!src/ayu/**
+!docker-entrypoint.sh
+
+# ignore bin and obj folders in projects
+src/**/bin/*
+src/**/obj/*
